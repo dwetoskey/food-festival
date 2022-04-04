@@ -1,7 +1,33 @@
 {
   "dependencies": {
     "bootstrap": "^4.3.1",
+    "jquery": "^3.6.0",
     "popper": "^1.0.1",
     "save": "^2.4.0"
-  }
+  },
+  "name": "food-festival",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "mocha": "^9.2.2",
+    "webpack": "^5.71.0",
+    "webpack-cli": "^4.9.2"
+  },
+  "scripts": {
+    "test": "mocha",
+    "webpack": "webpack --watch",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dwetoskey/food-festival.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dwetoskey/food-festival/issues"
+  },
+  "homepage": "https://github.com/dwetoskey/food-festival#readme",
+  "description": ""
 }
